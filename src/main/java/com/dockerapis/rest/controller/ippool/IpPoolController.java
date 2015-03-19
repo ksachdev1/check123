@@ -37,7 +37,7 @@ public class IpPoolController {
 		q.add(node);
 		poolr = new IpPoolCreate();
 		poolr.setPoolName("mili");
-		poolr.setSubnetMask("mitha");
+		poolr.setSubnetMask("test123");
 		logger.error("pool subnet is "+poolr.getSubnetMask());
 		
 		return poolr;
